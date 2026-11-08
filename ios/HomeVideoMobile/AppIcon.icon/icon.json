@@ -1,0 +1,117 @@
+{
+  "fill": {
+    "solid": "srgb:0.91373,0.87451,0.78039,1.00000"
+  },
+  "groups": [
+    {
+      "hidden-specializations": [
+        {
+          "appearance": "tinted",
+          "value": true
+        }
+      ],
+      "layers": [
+        {
+          "glass": false,
+          "hidden-specializations": [
+            {
+              "appearance": "tinted",
+              "value": true
+            }
+          ],
+          "image-name": "band.png",
+          "name": "band"
+        }
+      ],
+      "name": "band",
+      "shadow": {
+        "kind": "none",
+        "opacity": 0.5
+      },
+      "specular": false,
+      "translucency": {
+        "enabled": false,
+        "value": 0.5
+      }
+    },
+    {
+      "hidden-specializations": [
+        {
+          "appearance": "tinted",
+          "value": true
+        }
+      ],
+      "layers": [
+        {
+          "glass": false,
+          "hidden-specializations": [
+            {
+              "appearance": "tinted",
+              "value": true
+            }
+          ],
+          "image-name": "photo.png",
+          "name": "photo"
+        }
+      ],
+      "name": "photo",
+      "shadow": {
+        "kind": "none",
+        "opacity": 0.5
+      },
+      "specular": false,
+      "translucency": {
+        "enabled": false,
+        "value": 0.5
+      }
+    },
+    {
+      "hidden-specializations": [
+        {
+          "value": true
+        },
+        {
+          "appearance": "tinted",
+          "value": false
+        }
+      ],
+      "layers": [
+        {
+          "glass": true,
+          "hidden-specializations": [
+            {
+              "value": true
+            },
+            {
+              "appearance": "tinted",
+              "value": false
+            }
+          ],
+          "image-name": "glyph.svg",
+          "name": "glyph",
+          "fill-specializations": [
+            {
+              "appearance": "tinted",
+              "value": "automatic"
+            }
+          ]
+        }
+      ],
+      "name": "mono",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": false,
+        "value": 0.5
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}

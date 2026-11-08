@@ -1,0 +1,86 @@
+{
+  "fill": {
+    "solid": "srgb:0.04314,0.04314,0.05098,1.00000"
+  },
+  "groups": [
+    {
+      "hidden-specializations": [
+        {
+          "appearance": "tinted",
+          "value": true
+        }
+      ],
+      "layers": [
+        {
+          "glass": true,
+          "hidden-specializations": [
+            {
+              "appearance": "tinted",
+              "value": true
+            }
+          ],
+          "image-name": "sleeve.png",
+          "name": "sleeve"
+        }
+      ],
+      "name": "sleeve",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": false,
+        "value": 0.5
+      }
+    },
+    {
+      "hidden-specializations": [
+        {
+          "value": true
+        },
+        {
+          "appearance": "tinted",
+          "value": false
+        }
+      ],
+      "layers": [
+        {
+          "glass": true,
+          "hidden-specializations": [
+            {
+              "value": true
+            },
+            {
+              "appearance": "tinted",
+              "value": false
+            }
+          ],
+          "image-name": "glyph.svg",
+          "name": "glyph",
+          "fill-specializations": [
+            {
+              "appearance": "tinted",
+              "value": "automatic"
+            }
+          ]
+        }
+      ],
+      "name": "mono",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": false,
+        "value": 0.5
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}
